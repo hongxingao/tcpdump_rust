@@ -6,6 +6,9 @@
 ubuntu可以使用 sudo apt-get install libpcap-dev 安装
 
 cd tcpdump_rust
+
 cargo build
+
 cd target/debug
+
 ./tcpdump_rust -i eth0 或者 ./tcpdump_rust -i eth0 -w ./test.pacp
